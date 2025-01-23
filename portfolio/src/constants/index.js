@@ -25,11 +25,12 @@ export const navLinks = [
   export const myProjects = [
     {
       title: 'HireSphere - Job Hunting Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      desc:'Secure login and signup for students, recruiters, and admins with robust authentication. Students get a personalized dashboard to explore, apply for, and track job applications. A dedicated recruiter portal simplifies managing job postings and reviewing applications. Job listings come with advanced filters for an efficient search experience.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+        'Built as a job portal platform using the MERN stack (MongoDB, Express, React, Node.js), Shadcn, and Tailwind CSS, HireSphere delivers a robust, secure, and user-friendly experience.',
       
-      href:'https://blog-website-9tq3.vercel.app/',
+      
+      href:'https://hiresphere-xwm5.onrender.com',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -64,10 +65,11 @@ export const navLinks = [
     },
     {
       title: 'CilliBlog - Blog Website',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      desc: 'Cilliblog is an innovative blogging platform designed to provide a seamless and engaging experience for creators and readers alike. While not yet live with real users, it offers powerful features for writing, managing, and exploring blogs, ensuring a user-friendly and scalable foundation for future growth.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href:'https://hiresphere-xwm5.onrender.com',
+        'Cilliblog is built using the MERN stack (MongoDB, Express, React, Node.js) and styled with Tailwind CSS. This combination ensures a robust backend, dynamic frontend, and a responsive, user-friendly design, laying the groundwork for scalability and seamless performance.',
+      
+      href:'https://blog-website-9tq3.vercel.app/',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -101,9 +103,9 @@ export const navLinks = [
     },
     {
       title: 'ChatApp - Message Communication Platform',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      desc: 'The chat app offers secure login, real-time messaging, and the ability to send and receive text messages instantly. Users can see online presence, type indicators, and view message history. Notifications keep users updated, while profiles allow customization with names and pictures. Messages can be deleted, ensuring a smooth and engaging chatting experience.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        'The chat app uses the MERN stack (MongoDB, Express, React, Node.js) for a scalable backend and dynamic frontend. Socket.io enables real-time communication, allowing instant message delivery and typing indicators. Tailwind CSS ensures a responsive, customizable UI for an optimal user experience',
       href:'https://chatapp1-s5vj.onrender.com',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',

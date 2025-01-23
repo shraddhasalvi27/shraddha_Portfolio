@@ -8,10 +8,24 @@
   scroll-behavior: smooth;
 }
 
+
 body {
   background: #030103;
-  font-family: 'General-sans', sans-serif;
 }
+/* For headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* For body text */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.font-generalsans {
+  font-family: 'Quicksand', sans-serif; /* Default font for body text */
+ } 
+
 
 @layer utilities {
   .c-space {
@@ -57,7 +71,7 @@ body {
 
   /* hero section */
   .hero_tag {
-    @apply text-center xl:text-5xl md:text-5xl sm:text-4xl text-2xl font-generalsans font-black !leading-normal;
+    @apply text-center xl:text-5xl md:text-5xl sm:text-4xl text-2xl  font-black !leading-normal;
   }
 
   /* about section */
@@ -70,7 +84,7 @@ body {
   }
 
   .grid-subtext {
-    @apply text-[#afb0b6] text-base font-generalsans;
+    @apply text-[#afb0b6] text-base font-generalsans ;
   }
 
   .copy-container {
@@ -117,6 +131,7 @@ body {
   .contact-container {
     @apply max-w-xl  relative z-10 sm:px-10 px-5 mt-12   ;
   }
+  
 
   .field-label {
     @apply text-lg text-white-600;
