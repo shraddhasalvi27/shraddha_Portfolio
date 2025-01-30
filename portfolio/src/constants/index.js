@@ -31,7 +31,7 @@ export const navLinks = [
       
       
       href:'https://hiresphere-xwm5.onrender.com',
-      texture: '/textures/project/project1.mp4',
+      texture: '/textures/project/HireSphere.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -64,13 +64,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CilliBlog - Blog Website',
+      title: 'KnowShare - Blog Website',
       desc: 'Cilliblog is an innovative blogging platform designed to provide a seamless and engaging experience for creators and readers alike. While not yet live with real users, it offers powerful features for writing, managing, and exploring blogs, ensuring a user-friendly and scalable foundation for future growth.',
       subdesc:
         'Cilliblog is built using the MERN stack (MongoDB, Express, React, Node.js) and styled with Tailwind CSS. This combination ensures a robust backend, dynamic frontend, and a responsive, user-friendly design, laying the groundwork for scalability and seamless performance.',
       
       href:'https://blog-website-9tq3.vercel.app/',
-      texture: '/textures/project/project2.mp4',
+      texture: '/textures/project/KnowShare.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -107,7 +107,7 @@ export const navLinks = [
       subdesc:
         'The chat app uses the MERN stack (MongoDB, Express, React, Node.js) for a scalable backend and dynamic frontend. Socket.io enables real-time communication, allowing instant message delivery and typing indicators. Tailwind CSS ensures a responsive, customizable UI for an optimal user experience',
       href:'https://chatapp1-s5vj.onrender.com',
-      texture: '/textures/project/project3.mp4',
+      texture: '/textures/project/Panchat.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
